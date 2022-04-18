@@ -43,12 +43,14 @@
               <img src="istockphoto.png" alt="Avatar" class="avatar justify-center mx-auto">
             </div>
 
-                <div class="container">
-                  <label for="uname"><b>Username</b></label>
-                  <input type="text" placeholder="Enter Username" name="uname" required>
+                <div class="container flex flex-col">
+                   <input class="my-4" type="date" id="birthday" name="birthday">
+                   
+                   <input class="my-4" type="time" id="appt" name="appt" required>
 
-                  <label for="psw"><b>Password</b></label>
-                  <input type="password" placeholder="Enter Password" name="psw" required>
+                   <label class="my-4" for="">Choose the way you want to talk.</label>
+                   <div class="talk-component">
+                  <input type="checkbox" checked="checked" name="remember"> 
         
                   <button class="Book bg-green-700 py-3 text-white" type="submit">Book</button>
                   <label>
