@@ -44,24 +44,24 @@
             </div>
 
                 <div class="container flex flex-col">
-                   <input class="my-4" type="date" id="birthday" name="birthday">
-                   
-                   <input class="my-4" type="time" id="appt" name="appt" required>
+                   <input class="px-2 my-4 py-2 text-lg" type="date" id="birthday" name="birthday">
 
-                   <label class="my-4" for="">Choose the way you want to talk.</label>
+                   <input class="px-2 py-2 text-lg" type="time" id="appt" name="appt" required>
+
+                   <label class="my-4 text-lg" for ="">Choose the way you want to talk.</label>
                    <div class="talk-component">
-                  <input type="checkbox" checked="checked" name="remember"> 
-        
+                     <input type="radio" checked="checked" name="remember" ><span class="text-lg">Video call</span> 
+                     <span class="ml-4"></span>
+                     <input type="radio" checked="checked" name="remember" > <span class="text-lg">Voice call</span> 
+                     <span class="ml-4"></span>
+                     <input type="radio" checked="checked" name="remember" > <span class="text-lg">Chat</span> 
+                     
                   <button class="Book bg-green-700 py-3 text-white" type="submit">Book</button>
-                  <label>
-                    <input type="checkbox" checked="checked" name="remember"> Remember me
-                  </label>
+                  
                 </div>
 
-                <div class="container" style="background-color:#f1f1f1">
+                <div class="container justi " style="background-color:#f1f1f1">
                   <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn bg-red-500 text-white">Cancel</button>
-                  <span class="psw">Forgot <a href="#">password?</a></span>
-                </div>
               </form>
             </div>
 <script>
