@@ -27,28 +27,73 @@
           <img class="" src="log-removebg-preview.png" alt="" width="70"/>
           <a class="name mt-4 no-underline font-bold text-lg">Docon Health</a>
         </div>
-        <div class="nav_right">
-          <ul>
-            <li class="nr_li li_main flex">
-              <span class="user_name mt-3 mr-3 font-serif">Vineet_025</span>
-              <img src="proflie.png" alt="profile_image" />
-              
-               <!-- <i class="fa-solid fa-user"></i> -->
-              <div class="dd_menu">
-                <div class="dd_right cursor-pointer">
-                  <ul>
-                    <li>    <a class="cursor-pointer" href="#">Profile</a></li>
-                    <li><a class="cursor-pointer" href="#">Delete</a></li>
-                    <li><a class="cursor-pointer" href="#">Logout</a></li>
-                    <li><a class="cursor-pointer" href="#">Help</a></li>
-                  </ul>
+        <div class="nav_right flex">
+         
+          <div class="wrapper-coponents flex ">
+          <button onclick="document.getElementById('id01').style.display='block'"class="component-btn1 font-bold mt-0 text-white">Book an Appointment</button>
+          <button class="component-btn2 text-white flex flex-col mt-2.5 mx-4 font-bold">Logout</button>
+         </div>
+         
+         
+          <div id="id01" class="modal">
+  
+          <form class="modal-content animate" action="/action_page.php" method="post">
+            <div class="imgcontainer">
+              <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+              <img src="istockphoto.png" alt="Avatar" class="avatar justify-center mx-auto">
+            </div>
+
+                <div class="container">
+                  <label for="uname"><b>Username</b></label>
+                  <input type="text" placeholder="Enter Username" name="uname" required>
+
+                  <label for="psw"><b>Password</b></label>
+                  <input type="password" placeholder="Enter Password" name="psw" required>
+        
+                  <button class="Book bg-green-700 py-3 text-white" type="submit">Book</button>
+                  <label>
+                    <input type="checkbox" checked="checked" name="remember"> Remember me
+                  </label>
                 </div>
-              </div>
-            </li>
-          </ul>
+
+                <div class="container" style="background-color:#f1f1f1">
+                  <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn bg-red-500 text-white">Cancel</button>
+                  <span class="psw">Forgot <a href="#">password?</a></span>
+                </div>
+              </form>
+            </div>
+<script>
+// Get the modal
+var modal = document.getElementById('id01');
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+</script>
+
         </div>
       </div>
     </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="components -z-100">
 
     <div class="page-profile mt-10 ml-44 relative flex">
       <div class="card shadow-xl" style="width: 18rem">
@@ -104,20 +149,20 @@
       </div>
       <div class="sticky-notes ml-10">
         <div class="text-black bg-blue-500 mb-3" style="max-width: 64rem">
-          <div class="card-header">Header</div>
-          <div class="card-body">
-            <h5 class="card-title">Primary card title</h5>
-            <p class="card-text">
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
-            </p>
+          <div class="card-header">Appointments History</div>
+          <div class="table-box">
+            <div class="table-row">
+
+            </div>
+
+            
           </div>
         </div>
       </div>
       
       </div>
     </div>
-
+</div>
     <script>
       var li_main = document.querySelector(".li_main");
 
