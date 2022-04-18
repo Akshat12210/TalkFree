@@ -30,8 +30,8 @@
         <div class="nav_right flex">
          
           <div class="wrapper-coponents flex ">
-          <button onclick="document.getElementById('id01').style.display='block'"class="component-btn1 font-bold mt-0 text-white">Book an Appointment</button>
-          <button class="component-btn2 text-white flex flex-col mt-2.5 mx-4 font-bold">Logout</button>
+          <button onclick="document.getElementById('id01').style.display='block'"class="component-btn1 font-bold mt-0 text-white"><span class="hover:text-black">Book an Appointment</span></button>
+          <button class="component-btn2 text-white flex flex-col py-3 mx-4 font-bold items-center py-2 "><span class="hover:text-black">Logout</span></button>
          </div>
          
          
@@ -48,20 +48,21 @@
 
                    <input class="px-2 py-2 text-lg" type="time" id="appt" name="appt" required>
 
-                   <label class="my-4 text-lg" for ="">Choose the way you want to talk.</label>
+                   <label class="mt-4 mb-2 text-lg" for ="">Choose the way you want to talk.</label>
                    <div class="talk-component">
                      <input type="radio" checked="checked" name="remember" ><span class="text-lg">Video call</span> 
                      <span class="ml-4"></span>
                      <input type="radio" checked="checked" name="remember" > <span class="text-lg">Voice call</span> 
                      <span class="ml-4"></span>
                      <input type="radio" checked="checked" name="remember" > <span class="text-lg">Chat</span> 
-                     
+                    </div>
+                    <span class="my-2"></span>
                   <button class="Book bg-green-700 py-3 text-white" type="submit">Book</button>
                   
-                </div>
 
-                <div class="container justi " style="background-color:#f1f1f1">
+                <div class="container mx-52 px-6">
                   <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn bg-red-500 text-white">Cancel</button>
+                </div>
               </form>
             </div>
 <script>
@@ -112,6 +113,7 @@ window.onclick = function(event) {
           </p>
         </div>
         <ul class="list-group list-group-flush">
+          <li class="list-group-item">Username : </li>
           <li class="list-group-item">language : </li>
           <li class="list-group-item">Age : </li>
           <li class="list-group-item">Problem : </li>
