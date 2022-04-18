@@ -4,9 +4,49 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="profile-update.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
     <title>Document</title>
 </head>
 <body>
-    
+ <div class="edit-menu-contaioner py-4 justify-center bg-slate-300 items-center">
+     <ul class="flex mx-4">
+         <li class="edit-icon cursor-pointer ml-4  justify-start" ><a><i class="fas fa-times"></i></a></li>
+         
+         <li class="edit-icon justify-center relative mx-auto text-lg" ><a>Edit Profile</a></li>
+         
+         <li class="edit-icon cursor-pointer justify-end pr-5" ><a style="color:#3897f0;"><i class="fas fa-check"></i></a></li>
+
+     </ul>
+ </div>
+ <div class="edit-main-container flex justify-center">
+     <form method="post">
+         <div class="edit-image-container">
+             <img src="istockphoto.png" alt="" width="40%">
+             <button>Change Photo
+                 <span>
+                     <input type="file"  name="imagefile"></span>
+                 </span>
+             </button>
+         </div>
+
+         <div class="edit-profile-detail-container flex flex-col">
+             <label >Name </label>
+             <input type="text" name="Fullname" placeholder="FullName">
+
+             <label >Username</label>
+             <input type="text" name="Username" placeholder="UserName">
+
+             <label >Passward </label>
+             <input type="text" name="Passward" placeholder="Passward">
+
+             <label >Description </label>
+             <input class="py-5" type="text" name="Description" placeholder="Description">
+
+         </div>
+     </form>
+ </div>
+ </div>
 </body>
 </html>
