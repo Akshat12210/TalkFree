@@ -523,8 +523,11 @@ nav .profile-details i{
     
 }
 .talk-component{
-    margin-top: 10px;
+    margin-top: 6px;
 }
 .open-button{
     background-color: #081D45;
+}
+.desc{
+  margin-top: px;
 }
