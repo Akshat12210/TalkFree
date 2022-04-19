@@ -128,8 +128,51 @@
           </div>
          <i class='bx bx-message-dots cart three' style='color:#6e6d6d' ></i>
         </div>
+        <div class="box">
+          <div class="right-side">
+            <div class="box-topic">Sechdule a Meeting <br>Below</div>
+            <button  class="open-button" onclick="openForm()">Book slot</button>
+             
+            <div class="form-popup" id="myForm">
+  <form action="/action_page.php" class="form-container">
+    <h1>Sechdule a Meet</h1>
+
+    <!-- <label for="email"><b>Email</b></label> -->
+    <input class="date" type="date" id="birthday" name="birthday" required>
+<br>
+    <input class="time" type="time" id="appt" name="appt" required>
+    <label class="check-head" for ="">Choose the way you want to talk.</label>
+                   <div class="talk-component">
+                     <input type="radio" checked="checked" name="remember" ><span class="text-lg">Video call</span> 
+                     
+                     <input type="radio" checked="checked" name="remember" > <span class="text-lg">Voice call</span> 
+                     
+                     <input type="radio" checked="checked" name="remember" > <span class="text-lg">Chat</span> 
+                    </div>
+
+    <button type="submit" class="btn">Confirm</button>
+    <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+  </form>
+</div>
+
+<script>
+function openForm() {
+  document.getElementById("myForm").style.display = "block";
+}
+
+function closeForm() {
+  document.getElementById("myForm").style.display = "none";
+}
+</script>
+          </div>          
+        </div>
       </div>
 
+
+
+
+
+      
       <div class="sales-boxes">
         <div class="recent-sales box">
           <div class="title">Recent Meetings</div>
