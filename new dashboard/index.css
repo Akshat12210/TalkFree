@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  list-style: none;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Jost", sans-serif;
+}
+body{
+  background-image:url(istockphoto-1150186246-170667a.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+.navbar {
+  width: 100%;
+  height: 70px;
+  /* background: #cefffc; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 50px;
+}
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+li{
+  display: inline;
+}
+li a {
+  padding: 16px;
+  /* letter-spacing: 1px; */
+
+}
+li a :hover{
+  
+}
+
+.navbar .logo .name a {
+  display: block;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: 700;
+  letter-spacing: 2px;
+  font-size: 25px;
+}
+.nav_right .nav_right > ul {
+  display: flex;
+  align-items: center;
+}
+.navbar .nav_right ul li.nr_li {
+  margin-left: 25px;
+  cursor: pointer;
+  color: #fff;
+  font-size: 20px;
+  position: relative;
+}
+.navbar .nav_right ul li.nr_li:hover {
+  color: #cefffc;
+}
+.navbar .nav_right img {
+  width: 60px;
+  vertical-align: middle;
+}
+.navbar .dd_menu {
+  position: absolute;
+  top: 60px;
+  right: -10px;
+  display: flex;
+  background: #fff;
+  box-shadow: 1px 2px 3px rgba(0.25, 0.25, 0.25, 0.25);
+  border-radius: 15px;
+  display: none;
+}
+.navbar .dd_menu li {
+  padding: 15px 25px 15px;
+  margin-bottom: 10px;
+  color: #868686;
+}
+
+.navbar .dd_menu::before {
+  content: "";
+  position: absolute;
+  top: -20px;
+  right: 30px;
+  border: 10px solid;
+  border-color: transparent transparent #fff transparent;
+}
+.navbar .dd_menu .dd_right {
+  padding: 15px 20px;
+}
+.navbar .nav_right ul li.li_main.active .dd_menu {
+  display: flex;
+}
+.navbar .dd_menu li a:hover {
+  /* background-color: whitesmoke; */
+  box-shadow: 0px 0px 1px black;
+}
+.page-profile .card img {
+  width: 120px;
+  justify-content: center;
+  margin-top: 5px;
+}
+.page-profile .sticky-notes .card {
+  justify-content: end;
+}
