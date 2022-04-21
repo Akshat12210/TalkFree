@@ -168,7 +168,7 @@ body {
 }
 .forms .form-content .button {
   color: #fff;
-  margin-top: 30px;
+  margin-top: 10px;
 }
 .forms .form-content .button input {
   color: #fff;
@@ -263,4 +263,13 @@ select {
   padding-bottom: 4px;
   padding-left: 2px;
   padding-right: 2px;
+}
+.forms .remember {
+  margin-top: 10px;
+}
+.forms .remember .remember-me {
+  color: #333;
+}
+.forms .remember:hover {
+  text-decoration: none;
 }
