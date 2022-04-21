@@ -4,16 +4,15 @@
   <head>
     <meta charset="UTF-8">
     <!--<title> Responsiive Admin Dashboard | CodingLab </title>-->
-    <link rel="stylesheet" href="notes.css">
+    <link rel="stylesheet" href="user_style.css">
     <!-- Boxicons CDN Link -->
-    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
     <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
-     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     
    </head>
 <body>
   <div class="sidebar">
     <div class="logo-details">
-      <i class='bx bxl-c-plus-plus'></i>
+      <i class='bx bxl-c-plus-plus'></i>1
       <span class="logo_name">Docon</span>
     </div>
       <ul class="nav-links">
@@ -23,9 +22,14 @@
             <span class="links_name">Dashboard</span>
           </a>
         </li>
-        
+        <!-- <li>
+          <a href="#">
+            <i class='bx bx-box' ></i>
+            <span class="links_name">Product</span>
+          </a>
+        </li> -->
         <li>
-          <a href="notes.html">
+          <a href="user_notes.html">
             <i class='bx bx-list-ul' ></i>
             <span class="links_name">Self Notes</span>
           </a>
@@ -75,7 +79,7 @@
     <nav>
       <div class="sidebar-button">
         <i class='bx bx-menu sidebarBtn'></i>
-        <span class="dashboard">Dashboard</span>
+        <span class="dashboard">Update Profile</span>
       </div>
       <!-- <div class="search-box">
         <input type="text" placeholder="Search...">
@@ -88,60 +92,39 @@
       </div>
     </nav>
 
+<div class="home-content">
+  <h1>personal Info</h1>
 
-     <div class="home-content">
-<div class="popup-box">
-      <div class="popup">
-        <div class="content">
-          <header>
-            <p></p>
-            <i class="uil uil-times"></i>
-          </header>
-          <form action="#">
-            <div class="row title">
-              <label>Title</label>
-              <input type="text" spellcheck="false">
-            </div>
-            <div class="row description">
-              <label>Description</label>
-              <textarea spellcheck="false"></textarea>
-            </div>
-            <button></button>
-          </form>
-        </div>
-      </div>
-    </div>
-    <div class="wrapper">
-      <li class="add-box">
-        <div class="icon"><i class="uil uil-plus"></i></div>
-        <p>Add new note</p>
-      </li>
-    </div>
+  <label for="full_name">Full Name</label>
+  <input type="text" id="fullname" name="fullname" value="Vineet" readonly>
+  
+  <label for="Email">Your Email</label>
+  <input type="text" id="email" name="email" value="vineet@gmail.com" readonly>
 
-    <script src="notes.js"></script>
-    
+  <label for="gender">Gender</label>
+  <input type="text" id="gender" name="gender" value="Male" readonly>
+
+  <label for="dob">DOB</label>
+  <input type="text" id="dob" name="dob" value="25 october 2002" readonly>
+
+
+  <button type="button">Change Passward</button>
+  <button type="submit">delete Account</button>
+
 </div>
 
 
 
-
-
-
-<script>
-   let sidebar = document.querySelector(".sidebar");
-let sidebarBtn = document.querySelector(".sidebarBtn");
-sidebarBtn.onclick = function() {
-  sidebar.classList.toggle("active");
-  if(sidebar.classList.contains("active")){
-  sidebarBtn.classList.replace("bx-menu" ,"bx-menu-alt-right");
-}else
-  sidebarBtn.classList.replace("bx-menu-alt-right", "bx-menu");
-}
- </script>
-
-
-
-
-
+     <script>
+      let sidebar = document.querySelector(".sidebar");
+      let sidebarBtn = document.querySelector(".sidebarBtn");
+      sidebarBtn.onclick = function () {
+        sidebar.classList.toggle("active");
+        if (sidebar.classList.contains("active")) {
+          sidebarBtn.classList.replace("bx-menu", "bx-menu-alt-right");
+        } else sidebarBtn.classList.replace("bx-menu-alt-right", "bx-menu");
+      };
+    </script>
+  </section>
 </body>
 </html>
