@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+
+body {
+    font-family: "Poppins", sans-serif;
+    background: #7d2ae8;
+}
+
+.title {
+    position: relative;
+    font-size: 24px;
+    font-weight: 500;
+    color: #333;
+    margin-top: 34px;
+  }
+
+.title:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    height: 3px;
+    width: 100px;
+    background: #7d2ae8;
+    margin-left: 100px;
+  }
+
+#section {
+    text-align: center;
+    background-color: white;
+    height: 450px;
+    width: 400px;
+    margin: auto;
+    border-radius: 5px;
+    border: 2px solid #7d2ae8;
+    margin-top: -15px;
+}
+
+input {
+    display: block;
+    margin: auto;
+    padding: 5px;
+    margin-top: 54px;
+    width: 77%;
+    height: 27px;
+    border: 0 none;
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.2);
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+
+input[type=checkbox] {
+    width: 12px;
+    position: relative;
+    right: 40px;
+    display: inline-block;
+    
+}
+
+button {
+    margin-top: 25px;
+    font-family: "Poppins", sans-serif;
+    width: 41%;
+    height: 37px;
+    cursor: pointer;
+    border-radius: 6px;
+    color: #fff;
+    background: #7d2ae8;
+}
+
+span {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: black;
+}
+.textbtn :hover{
+    background-color: #5b13b9;
+}
+
+
+
+ .loginbutton {
+    font-family: "Poppins", sans-serif;
+    width: 54%;
+    height: 37px;
+    cursor: pointer;
+    border-radius: 6px;
+    background: #fff;
+    color: #7d2ae8; 
+    width: 100px;
+    margin-left: 1240px;
+} 
+
+.checkboxtext {
+    color: white;
+    position: relative;
+    right: 35px;
+    bottom: 8px;
+}
+
+.text {
+    color: white;
+    position: relative;
+    top: 25px;
+}
+
+.verification {
+    text-align: center;
+    background-color: white;
+    height: 450px;
+    width: 580px;
+    margin: auto;
+    border-radius: 5px;
+    border: 2px solid white;
+    margin-top: -15px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: black;
+    line-height: 450px;
+}
+
+#section .box{
+    margin-top: 50px;
+}
