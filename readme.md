@@ -1,6 +1,7 @@
-TalkFree : It is a counselling session booking web portal.
-You can signup yourself as a counsellor or counselle.
-Features of Counselling Management System:
+# TalkFree : 
+#### It is a counselling session booking web portal.
+#### You can signup yourself as a counsellor or counselle.
+### Features of Counselling Management System:
 •	Scheduling the meeting between the counsellor and counselee as per the mode required by the counselee
 •	Interviewing the counselee to identify his/her problem.
 •	Giving the counselee suitable advice and guiding him/her.
@@ -15,5 +16,5 @@ To run the project :
 To use PHPMailer(Download files from here) :
 https://github.com/PHPMailer/PHPMailer
 
-#Relational Schema of TalkFree
+# Relational Schema of TalkFree
 ![Relational Schema](Relational_Schema.png)
