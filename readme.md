@@ -11,3 +11,8 @@ To run the project :
 4. Open XAMPP and start Apache server and MySQL server
 5. Go to your browser and type localhost/TalkFree in the serach bar
 6. Open signup.php and create your account.
+
+To use PHPMailer(Download files from here) :
+https://github.com/PHPMailer/PHPMailer
+
+![Relational Schema](relational_schema.png)
