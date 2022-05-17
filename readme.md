@@ -15,4 +15,4 @@ To run the project :
 To use PHPMailer(Download files from here) :
 https://github.com/PHPMailer/PHPMailer
 
-![Relational Schema](relational_schema.png)
+![Relational Schema](Relational_Schema.png)
