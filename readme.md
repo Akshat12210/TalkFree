@@ -15,4 +15,5 @@ To run the project :
 To use PHPMailer(Download files from here) :
 https://github.com/PHPMailer/PHPMailer
 
+#Relational Schema of TalkFree
 ![Relational Schema](Relational_Schema.png)
