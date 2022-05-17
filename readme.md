@@ -13,8 +13,14 @@ To run the project :
 5. Go to your browser and type localhost/TalkFree in the serach bar
 6. Open signup.php and create your account.
 
-To use PHPMailer(Download files from here) :
+#### To use PHPMailer(Download files from here) :
 https://github.com/PHPMailer/PHPMailer
+
+#### For mailing we have used two service :
+##### 1. PHPMailer
+##### 2. MailJet
+
+#### For creating meeting link we have used Zoom API.
 
 # Relational Schema of TalkFree
 ![Relational Schema](Relational_Schema.png)
