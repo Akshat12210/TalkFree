@@ -1,0 +1,6 @@
+api_mailjet="api key of mailjet" 
+secret_mailjet="api key of mailjet" 
+mail="gmail account to send mails used by phpmailer and also to use zoom api" 
+pass="password of the same account"
+api_zoom="zoom api key"
+secret_zoom="zoom secret key"
